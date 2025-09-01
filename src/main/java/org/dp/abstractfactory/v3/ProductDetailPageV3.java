@@ -11,7 +11,7 @@ public class ProductDetailPageV3 {
 
     public ProductDetailPageV3(String imageAddress,
                                String introductionContent) {
-        IThemeWidgetFactory widgetFactory = new LightThemeWidgetFactory();
+        IThemeWidgetFactory widgetFactory = new DarkThemeWidgetFactory();
 
         image = widgetFactory.createImage();
         image.setAddress(imageAddress);
