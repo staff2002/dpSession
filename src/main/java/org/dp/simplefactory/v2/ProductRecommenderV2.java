@@ -2,7 +2,9 @@ package org.dp.simplefactory.v2;
 
 import java.util.ArrayList;
 import java.util.List;
-
+/*
+最初级的方法级封装
+ */
 public class ProductRecommenderV2 {
     public List<String> recommend(String category) throws Exception {
         List<String> products = new ArrayList<>();

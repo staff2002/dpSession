@@ -1,7 +1,10 @@
 package org.dp.simplefactory.v3;
 
 import java.util.List;
-
+/*
+符合开闭、单一职责
+不符合依赖倒置原则
+ */
 public class ProductRecommenderV3 {
     private PhoneRecommender phoneRecommender = new PhoneRecommender();
     private TelevisionRecommender televisionRecommender = new TelevisionRecommender();

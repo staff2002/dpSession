@@ -2,7 +2,9 @@ package org.dp.simplefactory.v1;
 
 import java.util.ArrayList;
 import java.util.List;
-
+/*
+完全没有采用面向对象的设计
+ */
 public class ProductRecommenderV1 {
     public List<String> recommend(String category) {
         List<String> products = new ArrayList<>();

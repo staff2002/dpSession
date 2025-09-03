@@ -10,10 +10,10 @@ public class ProductDetailPageV2 {
 
     public ProductDetailPageV2(String imageAddress,
                                String introductionContent) {
-        image = new DarkImage();
+        image = new LightImage();
         image.setAddress(imageAddress);
 
-        introduction = new DarkText();
+        introduction = new LightText();
         introduction.setContent(introductionContent);
     }
 

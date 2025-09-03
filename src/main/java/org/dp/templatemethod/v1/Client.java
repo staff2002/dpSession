@@ -10,7 +10,7 @@ import java.util.List;
 * */
 public class Client {
     public static void main(String[] args) {
-        Driver atCarDriver = new MtCarDriver();
-        atCarDriver.startCar();
+        Driver carDriver = new MtCarDriver();
+        carDriver.startCar();
     }
 }
